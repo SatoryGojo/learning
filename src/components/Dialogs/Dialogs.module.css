@@ -1,0 +1,22 @@
+
+.dialog_container{
+    display: grid;
+    height: 100vh;
+    width: 100%;
+    border: 3px solid black;
+    grid-template-columns: 2fr 10fr; 
+}
+
+.people_list{
+    grid-column: 1/2;
+    border-right: 3px solid black; 
+    list-style: none;
+}
+
+.people_list ul{
+    list-style: none;
+}
+
+.message_area{
+    grid-column: 2/11;
+}
